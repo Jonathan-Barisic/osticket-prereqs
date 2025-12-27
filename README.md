@@ -7,11 +7,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+
 
 <h2>Environments and Technologies Used</h2>
 
-- VMWare (Virtual Machines/Compute)
+- VMWare (Virtual Machines)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/TY4fKak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TY4fKak.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the control panel and navigate to programs > programs and features > "turn windows features on or off"
