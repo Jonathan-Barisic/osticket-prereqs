@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1713" height="899" alt="image" src="https://github.com/user-attachments/assets/67afe49d-bb6a-4c93-91aa-d4f1faec23a9" /><img width="1713" height="899" alt="image" src="https://github.com/user-attachments/assets/65b38b63-94b8-4baa-8658-f269c75cecf3" /><p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/olT2evY" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TY4fKak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the control panel and navigate to programs > programs and features > "turn windows features on or off"
