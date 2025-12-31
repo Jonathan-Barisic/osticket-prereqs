@@ -13,14 +13,6 @@ The goal of this project is to demonstrate practical system administration skill
 including web server configuration, dependency management, database setup, and application deployment.
 </p>
 
-<hr />
-
-<h2>Video Demonstration</h2>
-<p>
-(Coming soon)
-</p>
-
-<hr />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,16 +22,19 @@ including web server configuration, dependency management, database setup, and a
   <li>PHP</li>
   <li>MySQL</li>
 </ul>
-
+<br />
 <h2>Operating Systems Used</h2>
 
 <ul>
   <li>Windows 10</li>
 </ul>
 
-<hr />
+<br />
 
 <h2>List of Prerequisites</h2>
+
+  <a href="https://drive.google.com/file/d/1-sN-hbwNLs_w2xcEH9bBaKldTCsZmdKw/view?usp=sharing">you can download prerequisites from here</a>
+  <br>
 
 <ul>
   <li>PHPManagerForIIS_V1.5.0</li>
@@ -50,8 +45,8 @@ including web server configuration, dependency management, database setup, and a
   <li>HeidiSQL</li>
   <li>osTicket v1.15.8</li>
 </ul>
+<br />
 
-<hr />
 
 <h2>Installation Steps</h2>
 
@@ -90,7 +85,7 @@ After the changes are applied, open a web browser and navigate to:
 </p>
 
 <p>
-<strong>http://127.0.0.1</strong>
+<strong>127.0.0.1</strong>
 </p>
 
 <p>
@@ -155,7 +150,7 @@ Set the root password to:
 Click <strong>Execute</strong> and wait for the configuration to complete.
 </p>
 
-<hr />
+<br />
 
 <h3>Configure PHP in IIS</h3>
 
@@ -170,7 +165,7 @@ Navigate to:
 <p>
 <strong>PHP Manager → Register new PHP version</strong>
 </p>
-
+<img src="https://i.imgur.com/V4rEQBM.png" width="100%" alt="IIS Test Page"/>
 <p>
 Select:
 </p>
@@ -178,12 +173,12 @@ Select:
 <p>
 <strong>C:\PHP\php-cgi.exe</strong>
 </p>
-
+<img src="https://i.imgur.com/KYlUXUr.png" width="100%" alt="IIS Test Page"/>
 <p>
 Restart IIS by selecting <strong>Stop</strong>, then <strong>Start</strong>.
 </p>
 
-<hr />
+<br />
 
 <h3>Install osTicket</h3>
 
@@ -223,7 +218,7 @@ In IIS Manager, navigate to:
 Click <strong>Browse *:80</strong>.
 </p>
 
-<hr />
+<br />
 
 <h3>Enable Required PHP Extensions</h3>
 
@@ -245,7 +240,7 @@ Select <strong>Enable or disable an extension</strong> and enable the following:
   <li>php_opcache.dll</li>
 </ul>
 
-<hr />
+<br />
 
 <h3>Configure osTicket Files and Permissions</h3>
 
@@ -282,7 +277,7 @@ Add a new permission:
 <strong>Permissions:</strong> Full Control
 </p>
 
-<hr />
+<br />
 
 <h3>Database Setup with HeidiSQL</h3>
 
@@ -307,7 +302,7 @@ Connect to the server, right-click the unnamed database, and create a new databa
 <strong>osTicket</strong>
 </p>
 
-<hr />
+<br />
 
 <h3>Finalize osTicket Installation</h3>
 
@@ -326,8 +321,7 @@ After installation, log in at:
 <p>
 <strong>http://localhost/osTicket/scp/login.php</strong>
 </p>
-
-<hr />
+<br />
 
 <h3>Post-Installation Cleanup</h3>
 
