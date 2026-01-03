@@ -136,6 +136,7 @@ Once installation finishes, check <strong>“Launch MySQL Configuration Wizard�
 <p>
 Choose <strong>Standard Configuration</strong> and leave all settings as default.
 </p>
+<img src="https://i.imgur.com/mfD7Ama.png" width="100%" alt="Internet Information Services"/>
 
 <p>
 Set the root password to:
@@ -145,6 +146,8 @@ Set the root password to:
 <strong>Username:</strong> root<br />
 <strong>Password:</strong> root
 </p>
+
+<img src="https://i.imgur.com/FTKFgBG.png" width="100%" alt="Internet Information Services"/>
 
 <p>
 Click <strong>Execute</strong> and wait for the configuration to complete.
@@ -201,7 +204,7 @@ Rename the <strong>upload</strong> folder to:
 <p>
 <strong>osTicket</strong>
 </p>
-
+<img src="https://i.imgur.com/ns5Bubd.png" width="100%" alt="IIS Test Page"/>
 <p>
 Restart the IIS server.
 </p>
@@ -217,7 +220,7 @@ In IIS Manager, navigate to:
 <p>
 Click <strong>Browse *:80</strong>.
 </p>
-
+<img src="https://i.imgur.com/h9BSSW4.png" width="100%" alt="IIS Test Page"/>
 <br />
 
 <h3>Enable Required PHP Extensions</h3>
@@ -229,7 +232,7 @@ In IIS, navigate to:
 <p>
 <strong>Sites → Default Web Site → osTicket → PHP Manager</strong>
 </p>
-
+<img src="https://i.imgur.com/SBV9f2Z.png" width="100%" alt="IIS Test Page"/>
 <p>
 Select <strong>Enable or disable an extension</strong> and enable the following:
 </p>
@@ -239,7 +242,7 @@ Select <strong>Enable or disable an extension</strong> and enable the following:
   <li>php_intl.dll</li>
   <li>php_opcache.dll</li>
 </ul>
-
+<img src="https://i.imgur.com/RSOn462.png" width="100%" alt="IIS Test Page"/>
 <br />
 
 <h3>Configure osTicket Files and Permissions</h3>
