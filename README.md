@@ -262,7 +262,7 @@ Rename:
 <p>
 <strong>ost-sampleconfig.php</strong> → <strong>ost-config.php</strong>
 </p>
-
+<img src="https://i.imgur.com/Da5koEi.png" width="100%" alt="IIS Test Page"/>
 <p>
 Right-click <strong>ost-config.php</strong> → Properties → Security → Advanced
 </p>
@@ -279,7 +279,7 @@ Add a new permission:
 <strong>Principal:</strong> Everyone<br />
 <strong>Permissions:</strong> Full Control
 </p>
-
+<img src="https://i.imgur.com/gW6sLi4.png" width="100%" alt="IIS Test Page"/>
 <br />
 
 <h3>Database Setup with HeidiSQL</h3>
@@ -296,7 +296,7 @@ Create a new session using:
 <strong>Username:</strong> root<br />
 <strong>Password:</strong> root
 </p>
-
+<img src="https://i.imgur.com/ejdBAOn.png" width="100%" alt="IIS Test Page"/>
 <p>
 Connect to the server, right-click the unnamed database, and create a new database named:
 </p>
@@ -308,7 +308,8 @@ Connect to the server, right-click the unnamed database, and create a new databa
 <br />
 
 <h3>Finalize osTicket Installation</h3>
-
+<img src="https://i.imgur.com/JzEOFaL.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/qPiWdVy.png" width="100%" alt="IIS Test Page"/>
 <p>
 Return to the osTicket setup page in your browser.
 </p>
