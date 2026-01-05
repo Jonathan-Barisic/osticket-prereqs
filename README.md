@@ -47,6 +47,41 @@ including web server configuration, dependency management, database setup, and a
 </ul>
 <br />
 
+<h2>Environment Setup (VMware)</h2>
+
+<p>
+To demonstrate this project, a virtual machine is created to simulate an environment  where <strong>osTicket</strong> is installed.
+</p>
+
+<hr />
+
+<p>
+First, Open VMware and select <strong>Create a New Virtual Machine</strong>.  
+Choose <strong>Typical (recommended)</strong> configuration option.
+</p>
+
+<img src="https://i.imgur.com/wwrOoIE.png" width="100%" alt="Create new virtual machine"/>
+
+<hr />
+<p>
+Download and select the <strong> Windows 10 iso</strong> file.  
+Choose a location to store the virtual machine files and assign a name to the VM.
+</p>
+
+
+<img src="https://i.imgur.com/yU5kk7W.png" width="100%" alt="Select installation media"/>
+<img src="https://i.imgur.com/tTkYTEi.png" width="100%" alt="Configure disk size"/>
+<p>
+Configure the virtual machine’s disk size and storage options, 
+then finish the virtual machine configuration.
+</p>
+
+
+<img src="https://i.imgur.com/K77pDlf.png" width="100%" alt="Finalize VM creation"/>
+
+<p>
+Once the virtual machine is created, open it and proceed with installing Windows 10.  
+</p>
 
 <h2>Installation Steps</h2>
 
@@ -317,6 +352,8 @@ Return to the osTicket setup page in your browser.
 <p>
 Enter the database information and complete the installation.
 </p>
+<img src="https://i.imgur.com/gbMhPHd.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/I2jbk03.png" width="100%" alt="IIS Test Page"/>
 
 <p>
 After installation, log in at:
