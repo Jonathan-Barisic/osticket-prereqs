@@ -86,7 +86,7 @@ Once the virtual machine is created, open it and proceed with installing Windows
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/xM5r8VR.png" width="100%" alt="Internet Information Services"/>
+
 </p>
 
 <p>
@@ -112,7 +112,8 @@ Click <strong>OK</strong> and wait for Windows to apply the changes.
 <br />
 
 <p>
-<img src="https://i.imgur.com/TY4fKak.png" width="100%" alt="IIS Test Page"/>
+  <img src="https://i.imgur.com/hDbOI2v.png" width="100%" alt="Internet Information Services"/>
+<img src="https://i.imgur.com/mncNSek.png" width="100%" alt="IIS Test Page"/>
 </p>
 
 <p>
@@ -127,7 +128,7 @@ After the changes are applied, open a web browser and navigate to:
 If IIS is configured correctly, the default IIS web page should be displayed.
 </p>
 
-<img src="https://i.imgur.com/hSTgpN2.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/N3QqryP.png" width="100%" alt="IIS Test Page"/>
 
 <h3>Install Required Dependencies</h3>
 
@@ -157,9 +158,9 @@ Extract <strong>php-7.3.8-nts-Win32-VC15-x86.zip</strong> into the <strong>C:\PH
 Install <strong>VC_redist.x86.exe</strong> and complete the setup using default settings.
 </p>
 
-<img src="https://i.imgur.com/E4Sx7l6.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/pgITBxJ.png" width="100%" alt="IIS Test Page"/>
 
-<img src="https://i.imgur.com/NZzyPMK.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/gzxVcmz.png" width="100%" alt="IIS Test Page"/>
 
 <h3>Install and Configure MySQL</h3>
 
