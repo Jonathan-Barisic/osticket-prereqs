@@ -138,7 +138,7 @@ Accept all default options and continue clicking <strong>Next</strong> until ins
 </p>
 
 <p>
-Install <strong>rewrite_amd64_en-US.msi</strong> (URL Rewrite Module for IIS).  
+Install <strong>rewrite_amd64_en-US.msi</strong>   
 Accept all defaults and complete the installation.
 </p>
 
