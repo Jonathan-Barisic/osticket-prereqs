@@ -10,7 +10,7 @@ an open-source help desk ticketing system, using <strong>Windows 10</strong>,
 
 <p>
 The goal of this project is to demonstrate practical system administration skills, 
-including web server configuration, dependency management, database setup, and application deployment.
+including web server configuration, dependency management, and database setup.
 </p>
 
 
