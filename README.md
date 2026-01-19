@@ -112,8 +112,8 @@ Click <strong>OK</strong> and wait for Windows to apply the changes.
 <br />
 
 <p>
-  <img src="https://i.imgur.com/hDbOI2v.png" width="100%" alt="Internet Information Services"/>
-<img src="https://i.imgur.com/mncNSek.png" width="100%" alt="IIS Test Page"/>
+  <img src="https://i.imgur.com/hDbOI2v.png" width="100%" alt="Image"/>
+<img src="https://i.imgur.com/mncNSek.png" width="100%" alt="Image"/>
 </p>
 
 <p>
@@ -128,7 +128,7 @@ After the changes are applied, open a web browser and navigate to:
 If IIS is configured correctly, the default IIS web page should be displayed.
 </p>
 
-<img src="https://i.imgur.com/N3QqryP.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/N3QqryP.png" width="100%" alt="Image"/>
 
 <h3>Install Required Dependencies</h3>
 
@@ -158,9 +158,9 @@ Extract <strong>php-7.3.8-nts-Win32-VC15-x86.zip</strong> into the <strong>C:\PH
 Install <strong>VC_redist.x86.exe</strong> and complete the setup using default settings.
 </p>
 
-<img src="https://i.imgur.com/pgITBxJ.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/pgITBxJ.png" width="100%" alt="Image"/>
 
-<img src="https://i.imgur.com/gzxVcmz.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/gzxVcmz.png" width="100%" alt="Image"/>
 
 <h3>Install and Configure MySQL</h3>
 
@@ -172,7 +172,7 @@ Once installation finishes, check <strong>“Launch MySQL Configuration Wizard�
 <p>
 Choose <strong>Standard Configuration</strong> and leave all settings as default.
 </p>
-<img src="https://i.imgur.com/mfD7Ama.png" width="100%" alt="Internet Information Services"/>
+<img src="https://i.imgur.com/mfD7Ama.png" width="100%" alt="Image"/>
 
 <p>
 Set the root password to:
@@ -183,7 +183,7 @@ Set the root password to:
 <strong>Password:</strong> root
 </p>
 
-<img src="https://i.imgur.com/FTKFgBG.png" width="100%" alt="Internet Information Services"/>
+<img src="https://i.imgur.com/FTKFgBG.png" width="100%" alt="Image"/>
 
 <p>
 Click <strong>Execute</strong> and wait for the configuration to complete.
@@ -204,7 +204,7 @@ Navigate to:
 <p>
 <strong>PHP Manager → Register new PHP version</strong>
 </p>
-<img src="https://i.imgur.com/V4rEQBM.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/V4rEQBM.png" width="100%" alt="Image"/>
 <p>
 Select:
 </p>
@@ -212,7 +212,7 @@ Select:
 <p>
 <strong>C:\PHP\php-cgi.exe</strong>
 </p>
-<img src="https://i.imgur.com/KYlUXUr.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/KYlUXUr.png" width="100%" alt="Image"/>
 <p>
 Restart IIS by selecting <strong>Stop</strong>, then <strong>Start</strong>.
 </p>
@@ -240,7 +240,7 @@ Rename the <strong>upload</strong> folder to:
 <p>
 <strong>osTicket</strong>
 </p>
-<img src="https://i.imgur.com/ns5Bubd.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/ns5Bubd.png" width="100%" alt="Image"/>
 <p>
 Restart the IIS server.
 </p>
@@ -256,7 +256,7 @@ In IIS Manager, navigate to:
 <p>
 Click <strong>Browse *:80</strong>.
 </p>
-<img src="https://i.imgur.com/h9BSSW4.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/h9BSSW4.png" width="100%" alt="Image"/>
 <br />
 
 <h3>Enable Required PHP Extensions</h3>
@@ -268,7 +268,7 @@ In IIS, navigate to:
 <p>
 <strong>Sites → Default Web Site → osTicket → PHP Manager</strong>
 </p>
-<img src="https://i.imgur.com/SBV9f2Z.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/SBV9f2Z.png" width="100%" alt="Image"/>
 <p>
 Select <strong>Enable or disable an extension</strong> and enable the following:
 </p>
@@ -278,7 +278,7 @@ Select <strong>Enable or disable an extension</strong> and enable the following:
   <li>php_intl.dll</li>
   <li>php_opcache.dll</li>
 </ul>
-<img src="https://i.imgur.com/RSOn462.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/RSOn462.png" width="100%" alt="Image"/>
 <br />
 
 <h3>Configure osTicket Files and Permissions</h3>
@@ -298,7 +298,7 @@ Rename:
 <p>
 <strong>ost-sampleconfig.php</strong> → <strong>ost-config.php</strong>
 </p>
-<img src="https://i.imgur.com/Da5koEi.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/Da5koEi.png" width="100%" alt="Image"/>
 <p>
 Right-click <strong>ost-config.php</strong> → Properties → Security → Advanced
 </p>
@@ -315,7 +315,7 @@ Add a new permission:
 <strong>Principal:</strong> Everyone<br />
 <strong>Permissions:</strong> Full Control
 </p>
-<img src="https://i.imgur.com/gW6sLi4.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/gW6sLi4.png" width="100%" alt="Image"/>
 <br />
 
 <h3>Database Setup with HeidiSQL</h3>
@@ -332,7 +332,7 @@ Create a new session using:
 <strong>Username:</strong> root<br />
 <strong>Password:</strong> root
 </p>
-<img src="https://i.imgur.com/ejdBAOn.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/ejdBAOn.png" width="100%" alt="Image"/>
 <p>
 Connect to the server, right-click the unnamed database, and create a new database named:
 </p>
@@ -344,8 +344,8 @@ Connect to the server, right-click the unnamed database, and create a new databa
 <br />
 
 <h3>Finalize osTicket Installation</h3>
-<img src="https://i.imgur.com/JzEOFaL.png" width="100%" alt="IIS Test Page"/>
-<img src="https://i.imgur.com/qPiWdVy.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/JzEOFaL.png" width="100%" alt="Image"/>
+<img src="https://i.imgur.com/qPiWdVy.png" width="100%" alt="Image"/>
 <p>
 Return to the osTicket setup page in your browser.
 </p>
@@ -353,8 +353,8 @@ Return to the osTicket setup page in your browser.
 <p>
 Enter the database information and complete the installation.
 </p>
-<img src="https://i.imgur.com/gbMhPHd.png" width="100%" alt="IIS Test Page"/>
-<img src="https://i.imgur.com/I2jbk03.png" width="100%" alt="IIS Test Page"/>
+<img src="https://i.imgur.com/gbMhPHd.png" width="100%" alt="Image"/>
+<img src="https://i.imgur.com/I2jbk03.png" width="100%" alt="Image"/>
 
 <p>
 After installation, log in at:
